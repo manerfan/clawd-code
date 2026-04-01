@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+bun.lockb
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Native addons (built artifacts)
+*.node
+*.dll
+*.so
+*.dylib
+prebuilds/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+bun-debug.log*
+logs/
+
+# IDE & editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.suo
+*~
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Claude Code specific
+.claude/
+.qoder
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Debug
+*.cpuprofile
+*.heapsnapshot
